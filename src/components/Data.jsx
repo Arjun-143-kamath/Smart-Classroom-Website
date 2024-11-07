@@ -19,7 +19,12 @@ const Data = () => {
             width="450" 
             height="260" 
             className="rounded-2xl border-teal-500 border-[5px]"
-            src="https://thingspeak.com/channels/2701653/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Number+of+Students&type=line&xaxis=Time&yaxis=Distance" />
+            src="https://thingspeak.com/channels/2699577/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" />
+          <iframe 
+            width="450" 
+            height="260" 
+            className="rounded-2xl border-teal-500 border-[5px]"
+            src="https://thingspeak.com/channels/2699577/widgets/961171" />
         </div>
       </div>
     );
