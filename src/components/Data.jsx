@@ -27,7 +27,7 @@ const Data = () => {
         <div className="w-full max-w-[450px]">
           <h2 className="text-lg font-semibold text-gray-700 mb-2 text-center">Pressure Sensor Chart</h2>
           <iframe 
-            title="Pressure Sensor Chart"
+            title="Fan Chart"
             className="w-full h-[260px] rounded-2xl border-teal-500 border-2 sm:border-3 md:border-4 lg:border-5"
             src="https://thingspeak.com/channels/2699577/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" />
         </div>
